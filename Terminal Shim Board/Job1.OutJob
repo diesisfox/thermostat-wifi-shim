@@ -15,7 +15,7 @@ LifeCycleDefinitionGUID=
 RevisionNamingSchemeGUID=
 
 [OutputGroup1]
-Name=Job Group
+Name=Job1.OutJob
 Description=
 TargetOutputMedium=New Folder Structure
 VariantName=[No Variations]
@@ -135,7 +135,7 @@ Configuration6_Name6=VisibleOrder_Flat
 Configuration6_Item6=Designator=120|Quantity=120|LCSC Part #=100|Description=120|Comment=120|LibRef=120|Footprint=120
 
 [PublishSettings]
-OutputFilePath2=.\Free Documents.PDF
+OutputFilePath2=C:\Users\jamesliu\Documents\Altium\Thermostat\Terminal Shim Board\.\Terminal Shim Board.PDF
 ReleaseManaged2=0
 OutputBasePath2=.\
 OutputPathMedia2=
@@ -143,10 +143,10 @@ OutputPathMediaValue2=
 OutputPathOutputer2=[Output Type]
 OutputPathOutputerPrefix2=
 OutputPathOutputerValue2=
-OutputFileName2=default.PDF
+OutputFileName2=Job1.PDF
 OutputFileNameMulti2=
 UseOutputNameForMulti2=0
-OutputFileNameSpecial2==ProjectName
+OutputFileNameSpecial2==ProjectName+' '+CurrentDate
 OpenOutput2=0
 PromptOverwrite2=1
 PublishMethod2=0
@@ -162,11 +162,11 @@ ShowComponentParameters2=1
 GlobalBookmarks2=0
 PDFACompliance2=Disabled
 PDFVersion2=Default
-OutputFilePath3=C:\Users\jamesliu\Documents\Altium\1515_sk6805_array\controller pico\.\Output 2021-07-06 00-16\
+OutputFilePath3=C:\Users\jamesliu\Documents\Altium\Thermostat\Terminal Shim Board\.\Terminal Shim Board Output 2021-07-17\
 ReleaseManaged3=0
 OutputBasePath3=.\
-OutputPathMedia3==ProjectName+" Output "+CurrentDate+" "+CurrentTime
-OutputPathMediaValue3==ProjectName+" Output "+CurrentDate+" "+CurrentTime
+OutputPathMedia3==ProjectName+" Output "+CurrentDate
+OutputPathMediaValue3==ProjectName+" Output "+CurrentDate
 OutputPathOutputer3=
 OutputPathOutputerPrefix3=
 OutputPathOutputerValue3==ProjectName
@@ -177,9 +177,9 @@ OutputFileNameSpecial3=
 OpenOutput3=0
 
 [GeneratedFilesSettings]
-RelativeOutputPath2=.\Free Documents.PDF
+RelativeOutputPath2=C:\Users\jamesliu\Documents\Altium\Thermostat\Terminal Shim Board\.\Terminal Shim Board.PDF
 OpenOutputs2=0
-RelativeOutputPath3=C:\Users\jamesliu\Documents\Altium\1515_sk6805_array\controller pico\.\Output 2021-07-06 00-16\
+RelativeOutputPath3=C:\Users\jamesliu\Documents\Altium\Thermostat\Terminal Shim Board\.\Terminal Shim Board Output 2021-07-17\
 OpenOutputs3=0
 AddToProject3=0
 TimestampFolder3=0
